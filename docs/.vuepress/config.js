@@ -14,6 +14,7 @@ module.exports = {
       { text: '博文',
         items: [
           { text: 'Android', link: '/pages/test/test.md' },
+          { text: 'Androidqq', link: '/pages/test/test.md' },
           
         ] 
       },

@@ -4,7 +4,7 @@ home: true
 heroText: 前端技术博客
 tagline: 小宋姐姐
 actionText: 快速上手 →
-actionLink: /docs/index.md
+actionLink: /pages/test/test.md
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
