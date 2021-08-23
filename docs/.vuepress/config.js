@@ -14,17 +14,30 @@ module.exports = {
       { text: '博文',
         items: [
           { text: 'Android', link: '/pages/test/test.md' },
-          { text: 'Androidqq', link: '/pages/test/test.md' },
+          { text: 'Androidqq', link: '/pages/test/ff.md' },
           
         ] 
       },
       { text: '关于', link: '/about/' },
       { text: 'Github', link: 'https://www.github.com/codeteenager' },
   ],
-  sidebar: {
-     
-      },
-    sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 2, // 侧边栏显示2级
+  sidebar:{
+    '/pages/':[
+      '',
+      'ff',
+      'test'
+    ]
+  }
+  // sidebar: [
+  //   {
+  //     title:"前端",
+  //     children:[
+  //      { title:"01",path:"/pages/test/test"}
+  //     ]
+  //   }
+
+  // ],
+    // sidebar: 'auto', // 侧边栏配置
+    // sidebarDepth: 2, // 侧边栏显示2级
   }
 };
